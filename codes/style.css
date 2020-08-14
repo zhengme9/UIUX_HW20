@@ -1,0 +1,95 @@
+/* General Fonts and Colors */
+body{
+    background-color: #f8f8f8 !important;
+    color: #444 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "chivo", sans-serif;
+}
+p{
+    font-family: "chivo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25pt;
+}
+li{
+    font-family: "chivo", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25pt;
+}
+.customNav{
+    position: fixed;
+    width: 100%;
+    background: #f8f8f8 !important;
+    color: #444 !important;
+    z-index: 10;
+}
+
+/* Navigation */
+.fixed-top{
+    padding: 5px 0 5px 0 !important;
+}
+.navbar-nav{
+    margin-left:auto;
+    padding-right: 30px;
+}
+.navbar-brand{
+    font-family: "chivo", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-right: auto;
+}
+.navbar-brand img{
+    padding-left: 25px;
+    width: 170px;
+}
+.nav-item{
+    margin: 10px 15px
+}
+.nav-footer{
+    margin: auto;
+}
+.nav-footer li{
+    padding: 10px 50px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #f8f8f8 !important;
+    padding-bottom: 0 !important;
+}
+.jumbocopy{
+    margin-bottom: 75px;
+}
+.jumbo-nav{
+    padding-left: 75px;
+    cursor: pointer;
+}
+.jumbo-nav:hover{
+    color: black;
+}
+.jumbo-first{
+    margin-top: 300px;
+}
+.jumbo-img{
+    background-image: url(img/jack.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50px
+}
+.jumbo-text
+{
+    background-image: url(img/description.png);
+    background-size: 450px 250px;
+    background-repeat: no-repeat;
+    top: 100px
+}
+
+/* Content */
+.content{
+    padding: 0 90px;
+}
+.headers {
+    padding: 30px 0;
+}
